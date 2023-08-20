@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <style>
+        
+        
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+        *{
+            margin: 0;
+        }
+        .home{
+            height: 100vh;
+            width: 100%;
+            background-image: url("bg1.jpg");
+        }
+        .home nav{
+            /* border: 2px black solid; */
+            width: 700px;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            justify-content: space-around;
+            position: absolute;
+            right: 50px;
+            position: fixed;
+            top: 0;
+            /* margin: 50px; */
+        
+
+        }
+        nav a{
+            text-decoration: none;
+            font-size: 40px;
+            font-family: 'Lobster', cursive;
+            color: deeppink;
+            justify-content: space-around;
+        }
+        .main .name{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-450px,-130px);
+        }
+        .main h1{
+            font-size: 100px;
+            color: darkmagenta;
+        }
+        .main h2{
+            font-size: 60px;
+            position: relative;
+            left: 100px;
+            color: brown;
+        }
+        #iconn{
+            font-size: 300px;
+            position: relative;
+            left: 250px;
+            font-weight: 50;
+            color: bisque;
+            animation: move 0.5s ease infinite alternate;
+        }
+        @keyframes move{
+            from{
+               transform:translateY(0px); 
+            }
+            to{
+                transform: translateY(10px);
+            }
+        }
+        .about{
+            height: 150vh;
+            width: 100%;
+            background-color: aqua;
+        
+        }
+        .about h2{
+            font-size: 60px;
+            display: flex;
+            color:crimson;
+            /* align-items: center; */
+            justify-content: center;
+            font-weight: 100;
+            font-family: 'Lobster', cursive;
+            
+        }
+        .about img{
+            position: relative;
+            left: 820px;
+        }
+        .para{
+            width: 550px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            left: 700px;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 800;    
+        }
+        
+
+        
+        .project{
+            height: 200vh;
+            width: 100%;
+            background-color: cadetblue;
+        
+         }
+         .project h1{
+            font-size: 60px;
+            display: flex;
+            color:crimson;
+            /* text-align: center; */
+            justify-content: center;
+            font-weight: 100;
+            font-family: 'Lobster', cursive;
+         }
+         .container1{
+            height: 300px;
+            width: 100%;
+            display: flex;
+            margin: 50px;
+         }
+         .container1 img{
+            position: relative;
+            left: 100px;
+            top: 100px;
+
+         }
+         .container1 h2{
+        
+            position: relative;
+            top: 200px;
+            left: 250px;
+            /* font-weight: 500; */
+            font-size: 50px;
+
+         }
+        
+        .view{
+            position: relative;
+            top: 280px;
+            height: 50px;
+            width: 100px;
+            right: 80px;
+            background-color: darkmagenta;
+            box-shadow: 5px 5px 5px black;
+            /* left: 50px; */
+            
+        }
+        .source{
+            position: relative;
+            top: 280px;
+            height:50px ;
+            width: 100px;
+            background-color: darkmagenta;
+            box-shadow: 5px 5px 5px black;
+} 
+.container2{
+    margin: 200px;
+    height: 300px;
+    width: 100%;
+    display: flex;
+}
+.container2 img{
+    height: 300px;
+    width: 400px;
+    position: relative;
+    right: 100px;
+
+}
+.container2 h2{
+    position: relative;
+    top: 70px;
+    left: 50px;
+    font-size: 50px;
+}
+.view2{
+    position: relative;
+    top: 200px;
+    right: 390px;
+    height: 50px;
+    width: 100px;
+    background-color: darkmagenta;
+    box-shadow: 5px 5px 5px black;
+
+}
+.source2{
+    position: relative;
+    top: 200px;
+    right: 300px;
+    height: 50px;
+    width: 100px;
+    background-color: darkmagenta;
+    box-shadow: 5px 5px 5px black;
+
+}
+.container3{
+    display: flex;
+}
+.container3 img{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left: 100px;
+    top: -50px;
+}
+.container3 h3{
+    color: black;
+    position: relative;
+    font-size: 50px;
+    position: relative;
+    left: 350px;
+    
+    
+   
+}
+.view3{
+    position: relative;
+    top: 110px;
+    
+    
+    height: 50px;
+    width: 100px;
+    background-color: darkmagenta;
+    box-shadow: 5px 5px 5px black;
+
+}
+.source3{
+    position: relative;
+    top: 110px;
+    left: 70px;
+   
+    height: 50px;
+    width: 100px;
+    background-color: darkmagenta;
+    box-shadow: 5px 5px 5px black;
+}
+.container4{
+    display: flex;
+}
+.container4 img{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: 70px;
+    left: 100px;
+}
+.container4 h3{
+    font-size: 50px;
+    position: relative;
+    left: 380px;
+    top: 100px;
+}
+.view4{
+    position: relative;
+    top: 200px;
+    left: 100px;
+    
+    height: 50px;
+    width: 100px;
+    background-color: darkmagenta;
+    box-shadow: 5px 5px 5px black;
+
+}
+.source4{
+    position: relative;
+    top: 195px;
+    left: 200px;
+   
+   
+    height: 50px;
+    width: 100px;
+    background-color: darkmagenta;
+    box-shadow: 5px 5px 5px black;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: darkblue;
+    position: relative;
+    /* right: 100px; */
+    
+    
+}
+.skills h1{
+    font-size: 100px;
+    font-weight: 500;
+    position: relative;
+    top: 10px;
+    background-color: chartreuse;
+    color: black;
+}
+.skills h4{
+    font-size: 50px;
+    position: relative;
+    right: 180px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.py{
+    height: 50px;
+    width: 500px;
+    background-color: antiquewhite;
+    border-radius: 30px;
+    position: relative;
+    right: 20px;
+    
+}
+.box1{
+    height: 50px;
+    width: 350px;
+    background-color: brown;
+    border-radius: 30px;
+}
+ .box1{
+    animation: my_move1 ease 2s;
+    transition: all 2s ease;
+    
+}
+    @keyframes my_move1{
+        from{
+            width: 0;
+        }
+        to{
+            width: 350px;
+            border-radius: 30px;
+            background-color: brown;
+        }
+    }
+.box2{
+    height: 50px;
+    width: 450px;
+    background-color: brown;
+    border-radius: 30px;
+ }
+ .box2{
+    animation: my_move2 ease 2s ;
+    transition: all 2s ease;
+    
+}
+    @keyframes my_move2{
+        from{
+            width: 0;
+        }
+        to{
+            width: 450px;
+            border-radius: 30px;
+            /* background-color: brown; */
+        }
+    }
+
+ .box3{
+    height: 50px;
+    width: 400px;
+    background-color: brown;
+    border-radius: 30px;
+ }
+.box3{
+    animation: my_move3 ease 2s ;
+    transition: all 2s ease;
+    
+}
+    @keyframes my_move3{
+        from{
+            width: 0;
+        }
+        to{
+            width: 400px;
+            border-radius: 30px;
+            background-color: brown;
+        }
+    }
+.skills h2{
+    font-size: 50px;
+    color: darkblue;
+    position: relative;
+    right: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+
+}
+.oracle{
+    height: 50px;
+    width: 500px;
+    background-color: antiquewhite;
+    border-radius: 30px;
+    position: relative;
+    right: 20px;
+
+}
+.skills h3{
+    font-size: 50px;
+    color: darkblue;
+    position: relative;
+    right: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+
+}
+.wt{
+    height: 50px;
+    width: 500px;
+    background-color: antiquewhite;
+    border-radius: 30px;
+    position: relative;
+    right: 20px;
+
+}
+.contacts {
+    height: 150vh;
+    width: 100%;
+    background-color: cornflowerblue;
+   
+}
+.contacts h1{
+    position: relative;
+    left: 900px;
+    color:darkmagenta;
+    font-size: 80px;
+}
+.items {
+
+    height: 250px;
+    width: 100%;
+    background-color: beige;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: row;
+    
+    
+
+}
+.items a{
+    position: relative;
+    top: -40px;
+    right: 80px;
+}
+.items .i1{
+    font-size: 30px;
+    margin: 100px;
+}
+.items .i2{
+    font-size: 30px;
+    margin: 100px;
+}
+.items .i3{
+    font-size: 30px;
+    margin: 100px;
+}
+.items .i4{
+    font-size: 30px;
+    margin: 100px;
+}
+.items .i5{
+    font-size: 30px;
+    margin: 100px;
+}
+.items .i6{
+    font-size: 30px;
+    position: relative;
+    top:100px;
+}
+
+.i1 a{
+    position: relative;
+    right: 90px;
+}
+.i1 img{
+    position: relative;
+    left: 20px;
+}
+.resume{
+    height: 150px;
+    width: 100%;
+    background-color: chocolate;
+}
+.r1{
+    font-size: 70px;
+    color: darkblue;
+    
+}
+
+
+      
+        
+    </style>
+</head>
+<body>
+    <!-- home section starts -->
+    <div class="main">
+        <div class="home">
+        <nav>
+            <a href="#Aboutt">About</a>
+            <a href="#project1">Project</a>
+            <a href="#contact">Contact</a>
+            <a href="#contact">Resume</a>
+        </nav>
+        <div class="name">
+            <h1>Hi, I am Jyothirmai</h1>
+            <h2>I am Devops Engineer</h2>
+       <a href="#iconn">
+        <span class="material-symbols-outlined" id="iconn">
+            expand_circle_down
+    </span>
+       </a>
+        </div>
+        </div>
+    </div>
+
+    <!-- home section ends -->
+    <!-- abount starts -->
+    <div class="about" id="Aboutt">
+        <h2>About me</h2>
+        <img src="pic(css).jpg" alt="" height="300px" width="250px">
+        <p class="para" align="justify">I'm Jyothi 21 years old,Pursued B.Tech in 2023 in the stream of Computer Science And Engineering(CSE)
+            in JNTUA COLLEGE OF ENGINEERING KALIKIRI . I am very passionate about learning new technologies and I wanna enhance my coding skills through which I can become strong python developer and wanna do masters in abroad.  </p>
+    
+    <!-- abount ends -->
+    <!-- skills started -->
+    <div class="skills"> 
+        <h1>Skills</h1>
+        <h4>Python</h4>
+        <div class="py">
+            <div class="box1"></div>
+        </div>
+        <h2><b>Oracle Sql </b></h2>
+        <div class="oracle">
+            <div class="box2"></div>
+        </div>
+        <h3><b>Web Technology</b></h3>
+        <div class="wt">
+            <div class="box3"></div>
+        </div>
+
+    </div>
+    <!-- skils ends -->
+    </div>
+    <!-- project starts -->
+    
+    <div class="project" id="project1">
+        <h1>PROJECT</h1>
+        <div class="container1">
+        <img src="portfolio_project1.jpeg" alt="">
+        <h2>Hand written text </h2>
+        <form action="Devnagari-Handwritten-Word-Recongition-with-Deep-Learning-master/">
+        <input type="submit" value="view" class="view">
+        </form>
+        <form action="https://github.com/Jyothirmai987/handwritten">
+        <input type="submit" value="source" class="source">
+        </form>
+        </div>
+        <div class="container2">
+            <img src="img2.png" alt="">
+            <h2>Traffic sign Recognition</h2>
+            <form action="Traffic_Signs_WebApp-master/">
+            <input type="submit" value="view" class="view2"> 
+            </form>
+            <form action="https://github.com/Jyothirmai987/traffic_sign">
+                <input type="submit" value="source" class="source2">
+            </form> <br><br>
+            </div>
+         <div class="container3">
+            <img src="detect.png" alt="">
+            <h3>Face Mask Detection</h3>
+        
+            <form action="Face-Mask-Detection-master/">
+                <input type="submit" value="view" class="view3"> 
+            </form>
+            <form action="https://github.com/Jyothirmai987/facemask">
+            <input type="submit" value="source" class="source3">
+            </form> <br><br>
+            </div>
+            <div class="container4">
+                <img src="stress.png" alt="">
+                <h3>Stress Detection</h3>
+            
+                <form action="16 Stress Detection in IT Professionals/">
+                    <input type="submit" value="view" class="view4"> 
+                </form>
+                <form action="https://github.com/Jyothirmai987/stress_detection">
+                <input type="submit" value="source" class="source4">
+                </form> 
+                </div>
+
+        
+    </div>
+    <!-- project ends -->
+    <!-- contacts starts -->
+    <div class="contacts" id="contact">
+        <h1>Contact</h1>
+        <div class="items">
+            
+           <b class="i1">>E-Mail Id <a href="mailto:jyothirmaibathala@gmail.com"> <img src="email_portfolio.png" alt="" height="50px" width="50px" 
+           
+           jyothirmaibathala@gmail.com ></a></b>
+            <b class="i2"> >linkedin <a href="https://www.linkedin.com/in/bathala-jyothi-kumari-98b755220"><img src="linked_portfoilo.png" alt="" height="50px" width="50px"> </a></b>
+            <b class="i3"> >instagram <a href="https://instagram.com/jyothirmai.bathala?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><img src="insta_portfolio.jpg" alt="" height="50px" width="50px"></a></b>
+            <b class="i4"> >Twitter <a href="https://twitter.com/jyothirmaiBath1?t=aCUGngD87wGz0IcBpDXZ4A&s=08"><img src="twitter image.png" alt="" height="50px" width="50px"></a></b>
+            <b class="i5"> >Facebook <a href="https://www.facebook.com/ranadeepreddy.puli?mibextid=9R9pXO"><img src="facebook.webp" alt="" height="50px" width="50px"></a></b>
+            <b class="i6">>Phone no:<a href="tel:9391751967">&phone;</a></b>
+            </div>
+            <!-- resume starts -->
+            <div class="resume">
+                <div class="r1">
+                    <a href="resume.pdf" download="file">Resume </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- contacts ends -->
+   
+    
+</body>
+</html>
